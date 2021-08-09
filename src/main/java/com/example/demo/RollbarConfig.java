@@ -18,6 +18,7 @@ public class RollbarConfig implements ConfigProvider {
         .environment(RollbarSetting.environment)
         .codeVersion(RollbarSetting.codeVersion)
         .server(new ServerProvider())
+        .person(new PersonProvider())
         .build();
   }
 
