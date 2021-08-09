@@ -19,6 +19,7 @@ public class RollbarConfig implements ConfigProvider {
         .codeVersion(RollbarSetting.codeVersion)
         .server(new ServerProvider())
         .person(new PersonProvider())
+        .transformer(new PayloadTransformer())
         .build();
   }
 
