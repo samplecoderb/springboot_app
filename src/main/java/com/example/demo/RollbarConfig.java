@@ -17,6 +17,7 @@ public class RollbarConfig implements ConfigProvider {
     return RollbarSpringConfigBuilder.withAccessToken(RollbarSetting.accessToken)
         .environment(RollbarSetting.environment)
         .codeVersion(RollbarSetting.codeVersion)
+        .server(new ServerProvider())
         .build();
   }
 
