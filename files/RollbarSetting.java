@@ -18,6 +18,8 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 public class RollbarSetting {
 
   protected static final String accessToken = "ACCESS_TOKEN";
+  protected static final String codeVersion = "38d74530913059f93dbdb36b03787476a9c275bc";
+  protected static final String environment = "production";
 
   
   @Bean
